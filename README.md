@@ -1,17 +1,21 @@
 # Advanced SQL Data Analytics
 
+🔗 **Course Context:** This project is part of my complete SQL learning portfolio. View the full course notes and other projects here: [SQL Full Course - From Zero to Hero](https://github.com/Youssef-Hany1/SQL-Course)
+
 ## 🚀 Overview
-This project tackles complex business intelligence questions using advanced analytical SQL. It steps beyond basic aggregations to implement time-series analysis, cohort tracking, and performance benchmarking using multi-row functions.
+This project tackles complex business intelligence questions using advanced analytical SQL. It utilizes advanced functions (CTEs, Subqueries, and Window Functions) to create two comprehensive final reports: A **Customer Report** and a **Product Report**.
 
 ## 🧠 Key Analytical Concepts
-- **Time-Series Metrics:** Calculating 7-day and 30-day moving averages alongside running totals.
-- **Customer Retention:** Cohort analysis to track return rates over monthly and quarterly periods.
-- **Year-over-Year (YoY) Tracking:** Comparing current period performance against historical benchmarks.
+- **Change Over Time:** Tracking trends and seasonality by analyzing metrics across years and months.
+- **Cumulative Analysis:** Calculating running totals and moving averages to monitor business growth.
+- **Performance Analysis:** Conducting Year-over-Year (YoY) and Month-over-Month (MoM) comparisons, and comparing current performance against averages or extremes.
+- **Part-to-Whole Analysis:** Finding the percentage contribution of individual categories to the overall total.
+- **Data Segmentation:** Deriving new dimensions from measures (e.g., grouping customers into VIP, Regular, or New based on spending and lifespan) using `CASE WHEN`.
 
 ## 💻 Tech Stack
 - **Database Engine:** Microsoft SQL Server
 - **IDE:** SQL Server Management Studio (SSMS)
-- **Techniques:** Window Functions (`OVER()`, `PARTITION BY`, `LEAD`, `LAG`), Ranking Functions (`ROW_NUMBER`, `RANK`, `DENSE_RANK`), Advanced Joins.
+- **Techniques:** Value Window Functions (`LEAD`, `LAG`, `FIRST_VALUE`, `LAST_VALUE`), Aggregate Window Functions, Common Table Expressions (CTEs).
 
 ## 👨‍🏫 Acknowledgments
 Developed as part of the [SQL Full Course for Beginners (30 Hours)](https://www.youtube.com/watch?v=SSKVgrwhzus) by **Data with Baraa**.
