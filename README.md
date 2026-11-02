@@ -1,13 +1,21 @@
-# Advanced SQL Data Analytics
+# Comprehensive SQL Data Analytics & EDA
 
 🔗 **Course Context:** This project is part of my complete SQL learning portfolio. View the full course notes and other projects here: [SQL Full Course - From Zero to Hero](https://github.com/Youssef-Hany1/SQL-Course)
 
 ---
 ## 🚀 Overview
-This project tackles complex business intelligence questions using advanced analytical SQL. It utilizes advanced functions (CTEs, Subqueries, and Window Functions) to create two comprehensive final reports: A **Customer Report** and a **Product Report**.
+This repository combines two core phases of data analysis into a single, end-to-end SQL project. It begins with comprehensive **Exploratory Data Analysis (EDA)** to understand the dataset's structure, dimensions, and measures, and progresses into **Advanced SQL Analytics** to tackle complex business intelligence questions. The final output translates raw data into actionable insights through two comprehensive deliverables: A **Customer Report** and a **Product Report**.
 
 ---
 ## 🧠 Key Analytical Concepts
+
+### Phase 1: Exploratory Data Analysis (EDA)
+- **Database Exploration:** Querying the `INFORMATION_SCHEMA` to understand tables, columns, and database structure.
+- **Dimension Exploration:** Identifying unique values, categories, and date boundaries (time span).
+- **Magnitude Analysis:** Aggregating measures (e.g., Total Sales, Total Quantities) by dimensions (e.g., Country, Category).
+- **Ranking Analysis:** Identifying Top N and Bottom N performers (e.g., Top 5 Products, Bottom 3 Customers) using sorting and ranking functions.
+
+### Phase 2: Advanced Analytics
 - **Change Over Time:** Tracking trends and seasonality by analyzing metrics across years and months.
 - **Cumulative Analysis:** Calculating running totals and moving averages to monitor business growth.
 - **Performance Analysis:** Conducting Year-over-Year (YoY) and Month-over-Month (MoM) comparisons, and comparing current performance against averages or extremes.
@@ -18,14 +26,15 @@ This project tackles complex business intelligence questions using advanced anal
 ## 💻 Tech Stack
 - **Database Engine:** Microsoft SQL Server
 - **IDE:** SQL Server Management Studio (SSMS)
-- **Techniques:** Value Window Functions (`LEAD`, `LAG`, `FIRST_VALUE`, `LAST_VALUE`), Aggregate Window Functions, Common Table Expressions (CTEs).
+- **Core Techniques:** Aggregate Functions (`SUM`, `MIN`, `MAX`, `AVG`), `GROUP BY`, `TOP N`.
+- **Advanced Techniques:** Value Window Functions (`LEAD`, `LAG`, `FIRST_VALUE`, `LAST_VALUE`), Aggregate Window Functions, Common Table Expressions (CTEs).
 
 ---
 ## 👨‍🏫 Acknowledgments
 Developed as part of the [SQL Full Course for Beginners (30 Hours)](https://www.youtube.com/watch?v=SSKVgrwhzus) by **Data with Baraa**.
 
+---
 ## 🤝 Connect
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/youssefhany1/)
 
 ## 🌟 About me
