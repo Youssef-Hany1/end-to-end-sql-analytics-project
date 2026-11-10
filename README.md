@@ -2,6 +2,10 @@
 
 🔗 **Course Context:** This project is part of my complete SQL learning portfolio. View the full course notes and other projects here: [SQL Full Course - From Zero to Hero](https://github.com/Youssef-Hany1/SQL-Course)
 
+📝 **Notion Notes:**
+- Full course notes: [SQL Masterclass: Data Engineering & Analytics](https://app.notion.com/p/SQL-Masterclass-Data-Engineering-Analytics-2d7578a1319580178e82c198a62018d8)
+- This project: [Projects 2 & 3: Exploratory Data Analysis & Advanced Business Analytics](https://app.notion.com/p/Project-2-3-Exploratory-Data-Analysis-Advanced-Business-Analytics-3ff578a1319580a0a236e1001375ccf9)
+- Previous project: [Project 1: Data Warehousing & ETL Architecture](https://app.notion.com/p/Project-1-Data-Warehousing-ETL-Architecture-3ff578a1319580c28e8efca5357e9bac)
 ---
 ## 🚀 Overview
 This repository combines two core phases of data analysis into a single, end-to-end SQL project. It begins with comprehensive **Exploratory Data Analysis (EDA)** to understand the dataset's structure, dimensions, and measures, and progresses into **Advanced SQL Analytics** to tackle complex business intelligence questions. The final output translates raw data into actionable insights through two comprehensive deliverables: A **Customer Report** and a **Product Report**.
